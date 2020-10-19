@@ -97,6 +97,16 @@ p {
   margin-top: 0;
 }
 
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.page-header {
+  background-color: #ce7f7f;
+}
+
 :root {
   --main-text-cl: #757575;
   --accent-cl: #2196f3;
@@ -158,6 +168,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-cl);
+  margin-bottom: 10px;
 }
 
 .page-title {
@@ -168,6 +179,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-cl);
+  margin-bottom: 30px;
 }
 
 .btn {
@@ -176,10 +188,14 @@ body {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
+  text-align: center;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--white-cl);
   background-color: var(--accent-cl);
+  padding: 10px 32px;
+  display: inline-block;
+  min-width: 200px;
 }
 
 .btn:hover,
@@ -194,9 +210,13 @@ body {
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
-  border-radius: 4px;
   color: var(--title-cl);
   background-color: var(--section-cl);
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
 }
 
 .btn-filtr:hover,
@@ -232,6 +252,7 @@ body {
   line-height: 1.1875;
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
+  margin-bottom: 0;
 }
 .team-item {
   text-align: center;
@@ -249,6 +270,8 @@ body {
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .projects {
