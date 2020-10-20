@@ -98,13 +98,33 @@ p {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-header {
-  background-color: #ce7f7f;
+  background-color: yellowgreen;
+}
+.special {
+  padding-top: 47px;
+  padding-bottom: 94px;
+  background-color: violet;
+}
+
+.exerciser {
+  padding-bottom: 94px;
+  background-color: yellow;
+}
+.container-progect {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: violet;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 :root {
@@ -123,6 +143,7 @@ body {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
+  margin: 0;
 }
 
 .logo {
@@ -153,25 +174,11 @@ body {
   color: var(--accent-cl);
 }
 
-.section-title {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
+.hero {
   text-align: center;
-  color: var(--title-cl);
-}
-.details-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.1429;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--title-cl);
-  margin-bottom: 10px;
 }
 
-.page-title {
+.hero-title {
   font-family: inherit;
   font-weight: 900;
   font-size: 44px;
@@ -196,6 +203,7 @@ body {
   padding: 10px 32px;
   display: inline-block;
   min-width: 200px;
+  border: 1px solid transparent;
 }
 
 .btn:hover,
@@ -204,6 +212,32 @@ body {
   background-color: var(--white-cl);
 }
 
+.section-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  color: var(--title-cl);
+  margin-bottom: 50px;
+}
+
+.details-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1429;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-cl);
+  margin-bottom: 10px;
+}
+
+.features-p {
+  margin-bottom: 0;
+}
+.filtr {
+  margin-bottom: 34px;
+}
 .btn-filtr {
   font-family: inherit;
   font-weight: 500;
@@ -217,6 +251,7 @@ body {
   border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
+  border: 1px solid transparent;
 }
 
 .btn-filtr:hover,
@@ -224,10 +259,8 @@ body {
   color: var(--white-cl);
   background-color: var(--accent-cl);
 }
-.nav {
-  color: var(--title-cl);
-}
-.manu-link {
+
+.menu-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -236,6 +269,8 @@ body {
 }
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--section-cl);
 }
 .item-title {
@@ -244,6 +279,7 @@ body {
   line-height: 1.1875;
   letter-spacing: 0.03em;
   color: var(--title-cl);
+  margin-bottom: 10px;
 }
 
 .team-position {
@@ -280,4 +316,5 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-cl);
+  margin-bottom: 4px;
 }
