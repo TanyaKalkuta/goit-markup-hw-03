@@ -125,22 +125,52 @@ img {
   margin-right: auto;
 }
 
+.progect-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: violet;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
   background-color: yellowgreen;
 }
 .site-nav {
-  display: flex;
-  /* width: 294px;
-  justify-content: space-between; Задать вопрос в табличку*/
+  display: inline-flex;
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-.site-nav .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.page-header .logo {
+  margin-right: 93px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.site-nav .link {
+  display: inline-block;
   color: var(--title-cl);
   font-weight: 500;
   font-size: 14px;
@@ -161,8 +191,16 @@ img {
 .progect-set {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin-left: -30px;
+  margin-top: -30px;
 }
+
+.progect-item {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+}
+
 .features {
   display: flex;
   justify-content: space-between;
@@ -174,10 +212,7 @@ img {
 .features-p {
   margin-bottom: 0;
 }
-.team-display {
-  display: flex;
-  justify-content: space-between;
-}
+
 .special {
   padding-top: 47px;
   padding-bottom: 94px;
@@ -187,16 +222,6 @@ img {
 .exerciser {
   padding-bottom: 94px;
   background-color: yellow;
-}
-.progect-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: violet;
 }
 
 .logo {
@@ -230,6 +255,8 @@ img {
 }
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -318,10 +345,12 @@ img {
   color: var(--white-cl);
   background-color: var(--accent-cl);
 }
-
-.menu-link {
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
-
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -345,6 +374,9 @@ img {
   margin-bottom: 20px;
 }
 .team-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -355,19 +387,13 @@ img {
 .addres-style {
   color: var(--white-cl);
 }
-/*
-.addres:not(:last-child) {
+
+.addres-item:not(:last-child) {
   margin-bottom: 6px;
 }
-*/
+
 .dark-bg {
   background-color: var(--hero-cl);
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .footer {
