@@ -133,7 +133,7 @@ img {
   margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
-  background-color: violet;
+  /*background-color: violet;*/
 }
 
 .list {
@@ -145,7 +145,7 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
-  background-color: yellowgreen;
+  /*background-color: yellowgreen;*/
 }
 .site-nav {
   display: inline-flex;
@@ -216,12 +216,12 @@ img {
 .special {
   padding-top: 47px;
   padding-bottom: 94px;
-  background-color: violet;
+  /*background-color: violet;*/
 }
 
 .exerciser {
   padding-bottom: 94px;
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 
 .logo {
