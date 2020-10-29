@@ -144,7 +144,8 @@ img {
   margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
-  /*background-color: violet;*/
+  /*
+  background-color: violet;*/
 }
 
 .list {
@@ -156,8 +157,10 @@ img {
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
-  /*background-color: yellowgreen;*/
+  border-bottom: 1px solid #ececec;
 }
+/*background-color: yellowgreen;*/
+
 .site-nav {
   display: inline-flex;
 }
@@ -210,22 +213,42 @@ img {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
+  background-color: var(--white-cl);
+  border: 1px solid #eeeeee;
 }
-
+.projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-cl);
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding-left: 24px;
+}
+.progect-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+  margin-bottom: 20px;
+  padding-left: 24px;
+}
 .features {
   display: flex;
   justify-content: space-between;
 }
 .features-box {
   width: 270px;
-  padding-right: ;
 }
+
 .features-p {
   margin-bottom: 0;
 }
 
 .special {
-  padding-top: 47px;
+  padding-top: 86px;
   padding-bottom: 94px;
   /*background-color: violet;*/
 }
@@ -363,8 +386,11 @@ img {
   margin-top: -30px;
 }
 .team {
+  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--section-cl);
 }
 .item-title {
@@ -373,6 +399,7 @@ img {
   line-height: 1.1875;
   letter-spacing: 0.03em;
   color: var(--title-cl);
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -382,13 +409,14 @@ img {
   line-height: 1.1875;
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .team-item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
   text-align: center;
+  background-color: var(--white-cl);
 }
 
 .addres {
@@ -410,13 +438,4 @@ img {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.projects {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--title-cl);
-  margin-bottom: 4px;
 }
