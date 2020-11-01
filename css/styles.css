@@ -297,6 +297,7 @@ img {
 }
 
 .hero {
+  height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -383,7 +384,7 @@ img {
   padding: 6px 22px;
   min-width: 73px;
   height: 38px;
-  border: 0px solid transparent;
+  border: none;
 }
 .nav-progect .item:not(:last-child) {
   margin-right: 8px;
